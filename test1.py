@@ -3,9 +3,5 @@ for i in range(10):
 name = "jai"
 print(name+" Kuy")
 
-items = {
-    1: "apple", 
-    2: "watermalon"
-}
-for key, value in items.items():
+for key, value in {1: "apple", 2: "watermalon"}.items():
     print(key, value)
